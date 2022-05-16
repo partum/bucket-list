@@ -1,21 +1,28 @@
 import React from "react"
+import pin from "../Fill 219.svg"
 
 export default function Card(props) {
 
-    let visited = props.date
-    if (props.date === 0) {
+    let visited = "Visited: "+ props.item.date
+    if (props.item.date == "0") {
        visited = "Haven't visited yet!"
     } 
+    console.log(visited)
 
     return (
         <div className="card">
-            <img src={props.item.image}></img>
-            <p>{props.item.author}</p>
-            <h2>{props.item.country}</h2>
-            <a href={props.item.link}>View on Google Maps</a>
-            <h3>{props.item.title}</h3>
-            <p>{visited}</p>
-            <p>{props.item.description}</p>
+            <div className="hero">
+                <img src={props.item.image}></img>
+                <a href={props.item.authorLink}>{props.item.author}</a>
+            </div>
+            <div className="card-body">
+                <img src={pin}></img>
+                <h2>{props.item.country}</h2>
+                <a href={props.item.link}>View on Google Maps</a>
+                <h3>{props.item.title}</h3>
+                <p className="date">{visited}</p>
+                <p>{props.item.description}</p>
+            </div>
         </div>
     )
 }

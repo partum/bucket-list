@@ -26,7 +26,7 @@ export default [
         country: "Malawi",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Mulanje_ETM_26may02.jpg/800px-Mulanje_ETM_26may02.jpg",
         author: "NASA",
-        authorLink: "https://en.wikipedia.org/wiki/Mulanje_Massif#/media/File:Mulanje_ETM_26may02.jpg",
+        authorLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Mulanje_ETM_26may02.jpg/1280px-Mulanje_ETM_26may02.jpg",
         link: "https://www.google.com/maps/place/Mulanje+Massif/@-15.911118,35.6443764,14.58z/data=!4m5!3m4!1s0x18d9e6164dd7a633:0x2238859d91377e52!8m2!3d-15.9116361!4d35.6579492?hl=en",
         title: "Mulanje Massif",
         date: "4/8/2008",
